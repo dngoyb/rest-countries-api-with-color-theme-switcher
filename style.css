@@ -1,0 +1,59 @@
+/******************** dark mode *****************/
+/******************** Light mode *****************/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (250px)[4];
+      grid-template-columns: repeat(4, 250px);
+  -ms-grid-rows: (300px)[10];
+      grid-template-rows: repeat(10, 300px);
+}
+
+.card {
+  padding: 20px;
+  margin: 0 20px;
+  -webkit-box-shadow: 0 10px 10px rgba(124, 71, 71, 0.1);
+          box-shadow: 0 10px 10px rgba(124, 71, 71, 0.1);
+  font-weight: 600;
+}
+
+.card__img {
+  height: 120px;
+  width: 220px;
+  background-size: cover;
+}
+
+.card__desc {
+  padding: 11px;
+}
+
+.card__name {
+  padding-bottom: 15px;
+  font-weight: 800;
+}
+
+.card small {
+  font-weight: 400;
+}
+
+.search__input {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+/*# sourceMappingURL=style.css.map */
